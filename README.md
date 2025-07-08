@@ -4,8 +4,7 @@ This repository documents my professional journey and learning as a tenured QA e
 - Test automation best practices and guides
 - Real-world test case/sample bug reporting templates
 - Hands-on code samples with Java, Selenium, and CI/CD
-- Learning notes from my Scaler developer coursework
-- Transition insights from manual QA to an SDET/Dev-ready role
+- Learning notes and Transition insights from manual QA to an SDET/Dev-ready role
 
 ## Table of Contents
 - [Test Automation Best Practices](./TEST_AUTOMATION_BEST_PRACTICES.md)
