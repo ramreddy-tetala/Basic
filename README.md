@@ -1,1 +1,1 @@
-# Basic
+- [Test Automation Best Practices](./TEST_AUTOMATION_BEST_PRACTICES.md)
