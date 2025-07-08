@@ -15,13 +15,13 @@
 - **Benefits:** Increases modularity, maintains internal state integrity.
 
   _Example:_
-  \\\
+  ---
   public class Account {
       private double balance;
       public void deposit(double amount) { balance += amount; }
       public double getBalance() { return balance; }
   }
-\\\
+---
   ### 2.2 Inheritance  
 - Mechanism for creating new classes based on existing ones.
 - Promotes code reuse; supports hierarchical classification.
