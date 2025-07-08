@@ -16,4 +16,4 @@ This repository documents my professional journey and learning as a tenured QA e
 - [CI/CD Examples](./CI_EXAMPLES/)
 
 ## About Me
-I am a QA professional with 10+ years of experience, now building strong foundations in backend software development and automation.
+I am a technology enthusiast and problem-solver dedicated to mastering backend development and automation, leveraging a strong foundation in quality assurance and software testing best practices.
