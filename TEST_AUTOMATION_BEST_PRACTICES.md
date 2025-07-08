@@ -44,4 +44,4 @@
 - [Selenium Official Docs](https://www.selenium.dev/documentation/)
 - [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
 - [Page Object Model Design Pattern](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/)
-- 
+  
