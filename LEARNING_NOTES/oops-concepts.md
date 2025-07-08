@@ -15,7 +15,7 @@
 - **Benefits:** Increases modularity, maintains internal state integrity.
 
   _Example:_
-  ```
+  ```java
   public class Account {
     private double balance;
 
@@ -26,15 +26,17 @@
     public double getBalance() {
         return balance;
     }
+  
 }
 
----
-  ### 2.2 Inheritance  
+  - `balance` is encapsulated; it cannot be accessed directly from outside the `Account` class, enforcing data hiding and protecting the integrity of the balance.
+
+#### 2.2 Inheritance  
 - Mechanism for creating new classes based on existing ones.
 - Promotes code reuse; supports hierarchical classification.
 
   _Example:_
-```
+```java
  public class Vehicle {
     //...
 }
@@ -70,7 +72,7 @@ class Dog extends Animal {
 - Achieved via abstract classes (`abstract`) and interfaces.
 
   _Example:_
-```
+```java
 public interface Payment {
     void pay(double amount);
 }
