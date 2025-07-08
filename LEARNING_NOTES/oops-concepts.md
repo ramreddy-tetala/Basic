@@ -15,7 +15,7 @@
 - **Benefits:** Increases modularity, maintains internal state integrity.
 
   _Example:_
-  ```java
+```java
   public class Account {
     private double balance;
 
@@ -28,7 +28,7 @@
     }
   
 }
-
+```
   - `balance` is encapsulated; it cannot be accessed directly from outside the `Account` class, enforcing data hiding and protecting the integrity of the balance.
 
 #### 2.2 Inheritance  
