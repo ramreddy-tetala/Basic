@@ -16,7 +16,6 @@
 
   _Example:_
   ```
-  java
   public class Account {
     private double balance;
 
@@ -28,7 +27,7 @@
         return balance;
     }
 
-}```
+}
   ### 2.2 Inheritance  
 - Mechanism for creating new classes based on existing ones.
 - Promotes code reuse; supports hierarchical classification.
