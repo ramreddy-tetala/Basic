@@ -1,1 +1,48 @@
+# Example GitHub Actions Workflow for Java Projects
+# To activate this workflow, copy this file to .github/workflows/ in your repository root
 
+name: Java CI - Automated Tests                    # The name of this workflow (shows in GitHub Actions UI)
+
+on:                                                # Events that trigger this workflow
+  push:                                            # Trigger on push events
+    branches: [ "main", "master" ]                 # ...but only for main/master branches
+  pull_request:                                    # Trigger on pull request events
+    branches: [ "main", "master" ]                 # ...also only for main/master
+
+jobs:
+  build-and-test:                                  # This is the name/key for this job (could be any string)
+    runs-on: ubuntu-latest                         # The OS environment for the VM (Ubuntu)
+
+    steps:
+      - name: Checkout source code                 # Step 1: Get the latest code from your repo
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17                        # Step 2: Install Java (Temurin distribution, version 17)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'                  # Other options: zulu, adopt, etc.
+          java-version: '17'                       # Change this to your required version
+
+      - name: Cache Maven dependencies             # Step 3: Speed up builds by caching dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.m2/repository                       # Maven's local repo
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}  # Unique cache key
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: Build with Maven                     # Step 4: Build the code and resolve dependencies
+        run: mvn --batch-mode --update-snapshots clean install
+
+      - name: Run Tests                            # Step 5: Run unit and integration tests
+        run: mvn test
+
+      - name: Archive Test Reports                 # Step 6: Upload test reports, even if previous steps failed
+        if: always()                               # Always run this, even if there were errors above
+        uses: actions/upload-artifact@v4
+        with:
+          name: Test-Reports
+          path: |
+            target/surefire-reports/               # Standard Maven test results path
+            target/failsafe-reports/               # (If you use Failsafe for integration tests)
