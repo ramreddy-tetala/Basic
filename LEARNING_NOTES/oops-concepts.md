@@ -15,22 +15,22 @@
 - **Benefits:** Increases modularity, maintains internal state integrity.
 
   _Example:_
-  java
+  \\\
   public class Account {
       private double balance;
       public void deposit(double amount) { balance += amount; }
       public double getBalance() { return balance; }
   }
-
+\\\
   ### 2.2 Inheritance  
 - Mechanism for creating new classes based on existing ones.
 - Promotes code reuse; supports hierarchical classification.
 
   _Example:_
-  java
+  \\\
   public class Vehicle { /.../ }
   public class Car extends Vehicle { /.../ }
-
+\\\
   - `Car` inherits properties of `Vehicle`.
 
 ### 2.3 Polymorphism  
@@ -38,14 +38,14 @@
 - Types: Compile-time (method overloading) & runtime (method overriding).
 
   _Example (Overriding):_
-  java
+  \\\
   class Animal {
       void makeSound() { System.out.println("Some sound"); }
   }
   class Dog extends Animal {
       void makeSound() { System.out.println("Bark"); }
   }
-  
+  \\\
   - `Dog` overrides `makeSound()` method.
 
 ### 2.4 Abstraction  
@@ -53,11 +53,11 @@
 - Achieved via abstract classes (`abstract`) and interfaces.
 
   _Example:_
-  java
+  \\\
   public interface Payment {
       void pay(double amount);
   }
-
+\\\
   - Only essential behavior (`pay`) is exposed.
 
 ---
