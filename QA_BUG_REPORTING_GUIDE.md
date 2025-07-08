@@ -43,21 +43,29 @@
 - State if issue is found in regression, new feature, UAT, or production.
 
 ## 5. 🧾 Sample Bug Report Template
+
 **Title:** [Module] Clear, concise summary
+
 **Description:** What is happening vs. what should happen.
+
 **Steps to Reproduce:**
 1. [First step...]
 2. [Second step...]
 ...
+
 **Expected Result:** [Describe expected behavior]
+
 **Actual Result:** [Describe actual behavior]
+
 **Environment:**
 - App Version: 
 - Browser/OS/Device: 
 - Test Data Used: 
+
 **Severity:** [Blocker/Major/Minor/Trivial]
 **Priority:** [High/Medium/Low]
 **Reproducibility:** [Always/Sometimes/Rarely]
+
 **Attachments:** [Screenshots, logs, videos]
 
 ## 6. 👓 Best Practices & Tips
