@@ -106,7 +106,7 @@
     }
   ```
 
-  - **Error Handling:**
+- **Error Handling:**
   - Return meaningful error messages and codes.
   - Example:
   ```json
@@ -119,7 +119,7 @@
     }
   ```
 
-  - **Versioning:**
+- **Versioning:**
   - Use URI versioning: `/api/v1/users`
   - Or use header-based versioning.
 
