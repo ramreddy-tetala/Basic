@@ -143,5 +143,3 @@ Start building simple apps:
 - **Keep learning:** Backend involves a wide ecosystem—gradually expand into frameworks, messaging, microservices, cloud, etc.
 
 ---
-
-**Happy coding and best of luck with your transition!**
