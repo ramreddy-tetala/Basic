@@ -151,5 +151,3 @@ If you do Java backend:
 - [Testcontainers for Java](https://www.testcontainers.org/)
 
 ---
-
-_Last updated: June 2024_
