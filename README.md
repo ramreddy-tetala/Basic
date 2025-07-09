@@ -13,6 +13,14 @@ This repository documents my professional journey and learning as a tenured QA e
 - [Learning Notes](./LEARNING_NOTES/)
 - [Selenium Code Samples](./SELENIUM_SAMPLES/)
 - [CI/CD Examples](./CI_EXAMPLES/)
+- [API Testing Guide](./API_Testing_Guide.md)
+- [Unit Testing in Java](./Unit_Testing_in_Java.md)
+- [QA to DEV Learning Path](./QA_to_Dev_Learning_Path.md)
+- [DEV-QA Workflow Difference](./Dev_Workflow_Difference.md)
+- [Debugging and Logging Guide](./Debugging_and_Logging_Guide.md)
+- [Java Interview Questions](./Java_Interview_Questions.md)
+- [Java Backend Best Practices](./Java_Backend_Best_Practices.md)
+- [Common Backend Interview Tasks](./Common_Backend_Interview_Tasks.md)
 
 ## About Me
 I am a technology enthusiast and problem-solver dedicated to mastering backend development and automation, leveraging a strong foundation in quality assurance and software testing best practices.
