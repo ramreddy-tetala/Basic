@@ -125,5 +125,3 @@ public class Main {
 - [VisualVM](https://visualvm.github.io/)
 
 ---
-
-Happy debugging and logging!
